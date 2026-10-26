@@ -30,9 +30,9 @@ One plant per line, six whitespace-separated integers:
 x y z offsetX offsetY offsetZ
 ```
 
-- `x y z`: observed coordinates of the plant's block
+- `x y z`: observed coordinates of the grass
 - `offsetX offsetY offsetZ`: observed offset of the plant, each 0–15
-- The **first line is the reference plant**. All other plants are taken relative to it.
+- The **first line is the reference grass**. All other plants are taken relative to it.
 - Blank lines are skipped. Comments and header lines are not supported.
 
 The offsets can be acquired with polymetric's [mcah-manualgrass](https://github.com/polymetric/mcah-manualgrass) mod.
