@@ -4,7 +4,7 @@ Finds Minecraft world coordinates from grass offsets (for example, to locate whe
 
 This is a C# reimplementation of [humhue/grassfinder](https://github.com/humhue/grassfinder), an optimized Rust fork (wgpu GPU + Rayon CPU) of [polymetric/grassfinder](https://github.com/polymetric/grassfinder). It adds rotation search (`--rot`), so a pattern recorded in a different orientation can still be found.
 
-Every grass plant is drawn with a small offset (0–15 on each axis) that is a fixed function of its world position. If you have reconstructed those offsets for several plants, this program tries every candidate position in a search area and prints the positions whose computed offsets match yours (average error below a threshold).
+Every grass plant is drawn with a small offset (0–15 on each axis) that is a fixed function of its world position. If you have those offsets for several plants, this program tries every candidate position in a search area and prints the positions whose computed offsets match yours (average error below a threshold).
 
 ## Requirements
 
