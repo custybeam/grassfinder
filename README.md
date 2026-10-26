@@ -12,7 +12,7 @@ Every grass plant is drawn with a small offset (0–15 on each axis) that is a f
 
 ## Run
 
-Put `Program.cs` in a .NET console project and `offsets.txt` in the folder you run it from, then:
+Clone the repository, put your `offsets.txt` next to `grassfinder.csproj`, then:
 
 ```
 dotnet run -c Release
@@ -73,7 +73,7 @@ With `--post-1.8` the printed Y is always 0, so ignore the Y in the position and
 
 ## Settings
 
-These are at the top of `Main` in `Program.cs`. Edit them and rebuild.
+These are at the top of `Main` in `grassfinder.cs`. Edit them and rebuild.
 
 | Setting | Default | Meaning |
 | --- | --- | --- |
