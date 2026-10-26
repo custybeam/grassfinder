@@ -1,6 +1,6 @@
 # grassfinder (C#)
 
-Finds Minecraft world coordinates from reconstructed grass plant offsets (for example, to locate where a screenshot was taken) by brute-force search.
+Finds Minecraft world coordinates from grass offsets (for example, to locate where a screenshot was taken) by brute-force search.
 
 This is a C# reimplementation of [humhue/grassfinder](https://github.com/humhue/grassfinder), an optimized Rust fork (wgpu GPU + Rayon CPU) of [polymetric/grassfinder](https://github.com/polymetric/grassfinder). It adds rotation search (`--rot`), so a pattern recorded in a different orientation can still be found.
 
